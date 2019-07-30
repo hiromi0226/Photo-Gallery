@@ -1,0 +1,48 @@
+
+.title{
+  text-align:center;
+
+}
+
+body{
+    background-color: #FCCC53;
+}
+
+img{
+  width: 200px;
+  height: 375px;
+  margin:0;
+  padding:10px;
+  object-fit: cover;
+}
+.img-1{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #C1D1D6;
+}
+
+.first{
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.second{
+  margin-left: 310px;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.third{
+  vertical-align: middle;
+  margin-left: -310px;
+}
+
+
+@media screen and (max-width: 900px){
+  .img-1{
+    flex-direction: column; }
+
+}
